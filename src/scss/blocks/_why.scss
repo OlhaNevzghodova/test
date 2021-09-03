@@ -1,0 +1,53 @@
+.why{
+    min-height: 690px;
+    background-repeat: no-repeat;
+    font-family: 'Aleo';
+    .img-holder {
+        float: right;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 120px;
+        max-width: 540px;
+        &__first{
+            align-self: flex-start;
+            display: flex;
+        }
+        &__second {
+            justify-content: flex-end;
+        }
+    }
+    .information {
+        max-width: 540px;
+        padding-top: 205px;
+        display: inline-block;
+        &__title{
+            margin-bottom: 69px;
+            font-size: 36px;
+            color: #fff;
+            font-weight: normal;
+        }
+        &__text-first{
+            margin-bottom: 40px;
+            font-size: 16px;
+            color: $text;
+        }
+        &__text-second {
+            margin-bottom: 52px;
+            font-size: 16px;
+            color: $text;
+        }
+        &__button {
+            min-width: 225px;
+            min-height: 60px;
+            text-transform: uppercase;
+            color: #fff;
+            background: linear-gradient(45deg,
+            #496BFE 40%, $main 20%);
+            border-style: none;
+            cursor: pointer;
+            font-family: 'Aleo';
+            font-size: 16px;
+        }
+    }
+}
